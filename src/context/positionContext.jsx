@@ -7,6 +7,7 @@ export const positionContext = createContext()
 function PositionProvider({ children }) {
   const [isTopOfPage, setIsTopOfPage] = useState(true)
   const [selectedPage, setSelectedPage] = useState('description')
+  // const [selectedPage, setSelectedPage] = useState('description')
 
   useEffect(() => {
     const handleScroll = () => {
