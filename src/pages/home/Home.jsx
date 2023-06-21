@@ -32,13 +32,14 @@ const Home = () => {
               >
                 <Component
                   className=' bg-light'
+                  handleSeletedPage={Component.name}
                 />
               </motion.div>
             </div>
             <LineGradient />
           </div>
         ))}
-        {/* TODO: DotGroup  */}
+
       </div>
     </>
   )
