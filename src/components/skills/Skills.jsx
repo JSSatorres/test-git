@@ -1,9 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import LineGradient from '../lineGradient'
 import dataSkills from './skillsdata'
-// import useMediaQuery from '../../hooks/useMediaQuery'
-import skillImage from '../../assets/images/skills-image.png'
 import pict from '../../assets/icons/undraw_product_iteration_kjok.svg'
 
 const MySkills = () => (
